@@ -16,9 +16,8 @@ public class StudentTest {
         ) {
             System.out.println("姓名："+s.getName()+",年龄："+s.getAge()+",年级："+s.getGrade());
         }
-        lrs[0].txt();
-
         Student st = new Student("刘柏汝1",22,4);
         st.txt1();
+        lrs[0].txt();
     }
 }
