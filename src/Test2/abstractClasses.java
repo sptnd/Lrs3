@@ -5,6 +5,12 @@ package Test2;
  * @email: 337887790@qq.com
  * @date: 2021/5/18 23:01
  */
+/*
+1.仅对本类可见--private
+2.对外部完全可见--public
+3.对本包和所有子类可见--protected
+4.对本包可见--默认，不需要修饰符
+ */
 public class abstractClasses {
     public static void main(String[] args){
         Person p = new Student("凌瑞松","电子信息科学与技术");
